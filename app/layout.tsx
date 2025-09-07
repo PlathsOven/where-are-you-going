@@ -3,7 +3,7 @@ import './globals.css'
 
 export const metadata: Metadata = {
   title: 'where are you going?',
-  description: 'An ethereal interactive art chatbot experience',
+  description: 'Hey...you look lost.',
 }
 
 export default function RootLayout({
