@@ -45,5 +45,5 @@ next-env.d.ts
 .LSOverride
 
 # Audio files (temporarily exclude until you add your music files)
-/public/audio/ambient.mp3
-/public/audio/notifications/*.mp3
+# /public/audio/ambient.mp3
+# /public/audio/notifications/*.mp3
