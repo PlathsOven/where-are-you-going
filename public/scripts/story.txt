@@ -1,0 +1,43 @@
+You look lost. Where did you come from? [paste your resume as text]
+
+You've come far. how many hours a day do you spend walking? [how many hours a day do you spend being productive]
+
+Hmm. Guess you got stuck along the way. I know these people who took the same path as you, but they all seem to have gone much further.
+[show generated resumes of people with same background and timing up to previous role/ job / education, but then achieved more in the final step]
+You seem out of breath, so I'm guessing you haven't been slow either.
+
+Well, I can't help you walk faster. But, I'm curious, where are you going anyway? [what's your current biggest goal?]
+
+No, I meant the very end. Where are you going?
+[On your deathbed, what and who do you see? What are you wishing for the most? What do you regret?]
+
+What are you hoping is waiting for you at the end?
+[On your deathbed, what and who do you see? What are you wishing for the most? What do you regret?]
+
+Looking back on your journey, when did you feel most alive? [when have you felt the most motivated, passionate, or fulfilled]
+
+Ok, I think I have a better understanding of who you are now. You are:
+[summary of values, but in a very personal, heartfelt way, cathartic way, poetic way]
+
+Well, if you keep going straight, you'll probably end up here. [generated resume of extrapolated timeline from user's current resume]
+
+But if you come with me, we can go someplace like this. [generated resumed of LLM-selected 'optimal' end goal based on values, and then filling in the gaps between user's current role and that end goal]
+
+which path do you want to take? [display image previews of both generated word docs, user can click on either of them]
+
+Ok, let's get there. Here's the route I'd recommend, based on what I know about what drives you, and the wisdom of countless travellers before you.
+[show video demo of nodes and path]
+
+There'll be landmarks to see along the way, to help you keep track of your progress.
+[show video demo of specific nodes]
+
+I'll share the wisdom of those who've already walked these paths, so you may take the easiest routes.
+[show video demo of suggested actionables]
+
+I'll always keep a map for you, showing both what's ahead, and how far we've already come.
+[show video demo of future and past, timeline]
+
+And if you ever feel lost again, you can come talk to me, and I will show you other places we could go. 
+[show video demo of different paths / end nodes, can just be blended together]
+
+Remember, it's not about how fast you walk, it's about **where are you going**.

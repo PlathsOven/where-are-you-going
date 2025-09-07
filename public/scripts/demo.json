@@ -1,0 +1,374 @@
+{
+  "meta": {
+    "title": "Weary Traveler",
+    "defaultDelayMs": 0,
+    "defaultAnimationDuration": 1.0,
+    "traitGeneration": {
+      "contextSteps": {
+        "goal": "16",
+        "deathbed": "20", 
+        "fulfillment": "24"
+      }
+    }
+  },
+  "steps": [
+    {
+      "id": "1",
+      "speaker": "bot",
+      "text": "Hey...you look lost.",
+      "delayMs": 2000
+    },
+    {
+      "id": "2",
+      "speaker": "bot",
+      "text": "I remember that look, the way my eyes darted around at the bobbing heads in front of me.",
+      "delayMs": 3000
+    },
+    {
+        "id": "3",
+        "speaker": "bot",
+        "text": "The way my steps dragged, like I was walking just to keep moving...",
+        "delayMs": 5000
+    },
+    {
+      "id": "4",
+      "speaker": "bot",
+      "text": "Remind me, where have you been?",
+      "delayMs": 4000
+    },
+    {
+      "id": "5",
+      "speaker": "user",
+      "text": "Tell me of your journey so far. Paste your resume/CV as text"
+    },
+    {
+      "id": "6",
+      "speaker": "bot",
+      "text": "Ah, yes...you've travelled far.",
+      "delayMs": 2000
+    },
+    {
+      "id": "7",
+      "speaker": "bot",
+      "text": "You must be tired. How many hours each day do you spend moving?",
+      "delayMs": 3000
+    },
+    {
+      "id": "8",
+      "speaker": "user",
+      "text": "How many hours a day do you spend being 'productive'?"
+    },
+    {
+        "id": "9",
+        "speaker": "bot",
+        "text": "Ah..."
+    },
+    {
+        "id": "10",
+        "speaker": "bot",
+        "text": "...bet you feel like you got a bit stuck along the way."
+    },
+    {
+        "id": "11",
+        "speaker": "bot",
+        "text": "Remember these people? Those who took the same path as you, but have travelled much further.",
+        "delayMs": 3000
+    },
+    {
+        "id": "12",
+        "speaker": "bot",
+        "text": "Person 1 Resume Placeholder",
+        "displayType": "centered-box",
+        "dynamicContent": {
+            "type": "generated-resume",
+            "source": "resume1"
+        },
+        "delayMs": 4000
+    },
+    {
+        "id": "13",
+        "speaker": "bot",
+        "text": "Person 2 Resume Placeholder", 
+        "displayType": "centered-box",
+        "dynamicContent": {
+            "type": "generated-resume",
+            "source": "resume2"
+        },
+        "delayMs": 10000
+    },
+    {
+        "id": "14",
+        "speaker": "bot",
+        "text": "Well, you can't walk any faster.",
+        "delayMs": 10000
+      },
+    {
+        "id": "15",
+        "speaker": "bot",
+        "text": "But, I'm curious, where are you going anyway?"
+    },
+    {
+      "id": "16",
+      "speaker": "user",
+      "text": "What's your current biggest career goal?"
+    },
+    {
+      "id": "17",
+      "speaker": "bot",
+      "text": "No, no, no. Forget the expected destinations, the well-worn paths, the milestones others have marked.",
+      "delayMs": 2000
+    },
+    {
+      "id": "18",
+      "speaker": "bot",
+      "text": "I'm talking about the very end. Your final breath. The room around your deathbed.",
+      "delayMs": 6000
+    },
+    {
+      "id": "19",
+      "speaker": "bot",
+      "text": "What do you see?",
+      "delayMs": 5000
+    },
+    {
+      "id": "19.1",
+      "speaker": "bot",
+      "text": "Who's there?"
+    },
+    {
+      "id": "19.2",
+      "speaker": "bot",
+      "text": "What matters then?"
+    },
+    {
+      "id": "19.3",
+      "speaker": "bot",
+      "text": "What are you desperately wishing you had done differently?"
+    },
+    {
+      "id": "20",
+      "speaker": "user",
+      "text": "You're taking your final breaths. What's on your mind?"
+    },
+    {
+      "id": "21",
+      "speaker": "bot",
+      "text": "Now strip away the noise, the rumble of footsteps around you, the pounding of your heart as you struggle to catch up to the shoulders brushing past you."
+    },
+    {
+      "id": "22",
+      "speaker": "bot",
+      "text": "When were you most alive? When did time disappear because you were so absorbed in something that mattered?",
+      "delayMs": 6000
+    },
+    {
+      "id": "23",
+      "speaker": "bot",
+      "text": "Before the world told you what your journey should look like?",
+      "delayMs": 5000
+    },
+    {
+      "id": "24",
+      "speaker": "user",
+      "text": "What makes you feel most alive, most like yourself?"
+    },
+    {
+      "id": "25",
+      "speaker": "bot",
+      "text": "I see you clearly now."
+    },
+    {
+      "id": "26",
+      "speaker": "bot",
+      "text": "You are:"
+    },
+    {
+        "id": "27",
+        "speaker": "bot",
+        "text": "Trait 1 Placeholder",
+        "dynamicContent": {
+            "type": "generated-trait",
+            "source": "trait1"
+        }
+      },
+      {
+        "id": "28",
+        "speaker": "bot",
+        "text": "Trait 2 Placeholder",
+        "dynamicContent": {
+            "type": "generated-trait",
+            "source": "trait2"
+        },
+        "delayMs": 7000
+      },
+      {
+        "id": "29",
+        "speaker": "bot",
+        "text": "Trait 3 Placeholder",
+        "dynamicContent": {
+            "type": "generated-trait",
+            "source": "trait3"
+        },
+        "delayMs": 7000
+      },
+    {
+        "id": "30",
+        "speaker": "bot",
+        "text": "Well, if you keep going straight, you'll probably end up here.",
+        "delayMs": 7000
+      },
+      {
+        "id": "31",
+        "speaker": "bot",
+        "text": "Your Future Resume (10 Years From Now)",
+        "displayType": "centered-box",
+        "dynamicContent": {
+            "type": "generated-resume",
+            "source": "user-future"
+        }
+      },
+    {
+        "id": "32",
+        "speaker": "bot",
+        "text": "But if you come with me, we can go to a place like this, somewhere that honours who you really are.",
+        "delayMs": 8000
+      },
+    {
+        "id": "33",
+        "speaker": "bot",
+        "text": "Your Values-Aligned Future Resume (10 Years From Now)",
+        "displayType": "centered-box",
+        "dynamicContent": {
+            "type": "generated-resume",
+            "source": "user-aligned"
+        },
+        "delayMs": 4000
+      },
+    {
+        "id": "34",
+        "speaker": "bot",
+        "text": "So, my old friend.",
+        "delayMs": 8000
+    },
+    {
+        "id": "35",
+        "speaker": "bot",
+        "text": "Which path are you going to take?"
+    },
+    {
+        "id": "36",
+        "speaker": "user",
+        "text": "Which path calls to your soul?",
+        "choices": ["The road ahead", "The hidden path"]
+    },
+    {
+        "id": "37",
+        "speaker": "bot",
+        "text": "Brave choice. The path less traveled always requires a guide who knows the way."
+    },
+    {
+        "id": "38",
+        "speaker": "bot",
+        "text": "I'll need some time to plan our journey.",
+        "delayMs": 4000
+    },
+    {
+        "id": "39",
+        "speaker": "bot",
+        "text": "I'll map out a clear route from where we are now to our destination.",
+        "delayMs": 2000
+    },
+    {
+        "id": "40",
+        "speaker": "bot",
+        "text": "[Show video]",
+        "videoFile": "clear_route.mp4"
+    },
+    {
+        "id": "41",
+        "speaker": "bot",
+        "text": "We'll use landmarks along the way to keep us on track.",
+        "delayMs": 16000
+    },
+    {
+        "id": "42",
+        "speaker": "bot",
+        "text": "[Show video]",
+        "videoFile": "landmarks.mp4"
+    },
+    {
+        "id": "43",
+        "speaker": "bot",
+        "text": "I'll share the wisdom of those who've already walked these paths, so you may take the easiest routes to each landmark.",
+        "delayMs": 8000
+    },
+    {
+        "id": "44",
+        "speaker": "bot",
+        "text": "[Show video]",
+        "videoFile": "wisdom.mp4"
+    },
+    {
+      "id": "44.1",
+      "speaker": "bot",
+      "text": "[Show video]",
+      "videoFile": "wisdom2.mp4",
+      "delayMs": 8000
+  },
+    {
+        "id": "45",
+        "speaker": "bot",
+        "text": "I'll always keep a map for you, showing both what's ahead, and how far we've already come.",
+        "delayMs": 8000
+    },
+    {
+        "id": "46",
+        "speaker": "bot",
+        "text": "[Show video]",
+        "videoFile": "map.mp4"
+    },
+    {
+        "id": "47",
+        "speaker": "bot",
+        "text": "And when the old voices return, the ones telling you to measure, to compare, to optimise...",
+        "delayMs": 23000
+    },
+    {
+        "id": "48",
+        "speaker": "bot",
+        "text": "...come find me.",
+        "delayMs": 6000
+    },
+    {
+        "id": "49",
+        "speaker": "bot",
+        "text": "I'll remind you who we really are, and show you other paths that honor your authentic self."
+    },
+    {
+        "id": "50",
+        "speaker": "bot",
+        "text": "[Show video]",
+        "videoFile": "paths.mp4"
+    },
+    {
+      "id": "51",
+      "speaker": "bot",
+      "text": "Remember, it's not about how fast you walk.",
+      "delayMs": 12000
+    },
+    {
+    "id": "52",
+    "speaker": "bot",
+    "text": "It's about where you are going.",
+    "delayMs": 5000,
+    "animationDuration": 5.0
+    },
+    {
+    "id": "53",
+    "speaker": "system",
+    "text": "replay",
+    "delayMs": 7000,
+    "showReplay": true
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: ui-serif, Georgia, Cambria, 'Times New Roman', serif;
+    background-color: white;
+  }
+  
+  body {
+    @apply bg-white text-black antialiased;
+    font-feature-settings: 'liga' 1, 'calt' 1;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  /* Remove default focus outline only if we replace with better styling */
+  *:focus {
+    outline: none;
+  }
+  
+  /* Ensure focus is still visible with our custom ring styles */
+  *:focus-visible {
+    @apply ring-2 ring-black/20;
+  }
+}
+
+/* Hide scrollbar completely for webkit browsers */
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: transparent;
+}
+
+/* Hide scrollbar for Firefox */
+* {
+  scrollbar-width: none;
+}
+
+/* Hide scrollbar for IE and Edge */
+* {
+  -ms-overflow-style: none;
+}
