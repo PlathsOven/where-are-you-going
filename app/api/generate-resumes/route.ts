@@ -19,7 +19,7 @@ REQUIREMENTS:
 4. Make each trait feel personal and meaningful
 5. Format as bullet points: "- [Trait description]"
 6. Speak in second person
-7. Each trait description phrased as text that continues off "You are..."
+7. Each trait description phrased as text that continues off "You are...", e.g. "a relationship builder at heart[...]"
 
 Return EXACTLY this JSON structure:
 {
@@ -30,7 +30,7 @@ Return EXACTLY this JSON structure:
 
   const content = await openRouter.generateCompletion({
     messages: [{ role: 'user', content: prompt }],
-    temperature: 0.7,
+    temperature: 1,
     max_tokens: 800
   });
 
@@ -58,7 +58,7 @@ REQUIREMENTS:
 1. Extrapolate their career trajectory 10 years forward
 2. Show steady but unexceptional progression in their current field
 3. Make it feel "default" and boring - typical career ladder climbing
-4. Use realistic company names and progression timelines
+4. Use real company names and realistic progression timelines
 5. Include 2-3 new positions from ${currentYear} to ${futureYear}.
 6. Show incremental salary/responsibility increases but nothing extraordinary
 7. Keep their education the same, just add the projected career progression
@@ -124,9 +124,9 @@ Return EXACTLY this JSON structure:
   "education": [{"institution": "[Same as current]", "degree": "[Same as current]", "dates": "[Same as current]", "details": "[Same as current]"}],
   "career": [
     {"company": "[Current/Recent company]", "role": "[Current role]", "dates": "[Current dates]", "details": "[Current details]"},
-    {"company": "[Values-aligned organization]", "role": "[Role that leverages their traits]", "dates": "[${currentYear}-${currentYear + 3}]", "details": "[Meaningful achievements]"},
+    {"company": "[Values-aligned organization]", "role": "[Role that leverages their traits and values]", "dates": "[${currentYear}-${currentYear + 3}]", "details": "[Meaningful achievements]"},
     {"company": "[Purpose-driven organization]", "role": "[Leadership role aligned with values]", "dates": "[${currentYear + 3}-${currentYear + 6}]", "details": "[Meaningful achievements]"},  
-    {"company": "[Mission-focused organization]", "role": "[Leadership role that maximizes their traits]", "dates": "[${currentYear + 6}-${futureYear}]", "details": "[Meaningful achievements]"}
+    {"company": "[Mission-focused organization]", "role": "[Leadership role that maximizes their values]", "dates": "[${currentYear + 6}-${futureYear}]", "details": "[Meaningful achievements]"}
   ]
 }`;
 

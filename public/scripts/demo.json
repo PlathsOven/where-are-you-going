@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Weary Traveler",
-    "defaultDelayMs": 0,
+    "defaultDelayMs": 2000,
     "defaultAnimationDuration": 1.0,
     "traitGeneration": {
       "contextSteps": {
@@ -15,8 +15,7 @@
     {
       "id": "1",
       "speaker": "bot",
-      "text": "Hey...you look lost.",
-      "delayMs": 2000
+      "text": "Hey...you look lost."
     },
     {
       "id": "2",
